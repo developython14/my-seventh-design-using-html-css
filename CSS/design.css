@@ -1,0 +1,229 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+}
+ 
+.parent-container {
+    width: 90%;
+    height: 800px;
+    background-color:  hsl(0, 23.8%, 95.9%);
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.grid-container {
+    width: 90%;
+    height: 700px;
+    background-color: hsl(0, 0%, 98%);
+    margin-left: 5%;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cart1 {
+    background-image: url(../images/icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position: 260px 135px;
+    background-size: 50px;
+    width: 340px;
+    height: 200px;
+    border-top: 3px solid;
+    border-color: hsl(180, 62%, 55%);
+    margin: 10px;
+    background-color: hsl(0, 0%, 98%);
+
+}
+.cart2 {
+    background-image: url(../images/icon-team-builder.svg);
+    background-repeat: no-repeat;
+    background-position: 260px 135px;
+    background-size: 50px;
+    width: 340px;
+    height: 200px;
+    border-top: 3px solid;
+    border-color:  hsl(0, 78%, 62%);
+    margin: 10px;
+    background-color: hsl(0, 0%, 98%);
+
+}
+.cart3 {
+    background-image: url(../images/icon-karma.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 260px 135px;
+    width: 340px;
+    height: 200px;
+    border-top: 3px solid;
+    border-color: hsl(34, 97%, 64%);
+    margin: 10px;
+    background-color: hsl(0, 0%, 98%);
+
+}
+.cart4 {
+    background-image: url(../images/icon-calculator.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 260px 135px;
+    width: 340px;
+    height: 200px;
+    border-top: 3px solid;
+    border-color: hsl(212, 86%, 64%);
+    margin: 10px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.heading-text {
+    text-align: center;
+}
+
+.cartes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 5px;
+}
+
+.title , .second-heading {
+    color: black;
+}
+
+.middle {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+ .title {
+    margin: 20px;
+}
+
+ .contenent {
+    margin: 20px;
+}
+.cart1 {
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cart2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:5px;
+}
+.cart3 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:5px;
+}
+.cart4 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:5px;
+}
+
+.contenent , .title{
+    padding-left: 10px;
+    padding-right:10px ;
+}
+
+
+.pargraph-intro {
+   margin-bottom: 50px;
+   line-height: 1.5;
+}
+
+.first-heading{
+margin-left : 15px;
+padding-top: 40px;
+}
+
+
+@media (max-width:375px){
+    .middle {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cartes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 5px;
+    }
+    
+    .cart1 {
+        background-image: url(../images/icon-supervisor.svg);
+        background-repeat: no-repeat;
+        background-position: 210px 135px;
+        background-size: 50px;
+        width: 280px;
+        height: 200px;
+        border-top: 3px solid;
+        border-color: hsl(180, 62%, 55%);
+        margin: 10px;
+        background-color: hsl(0, 0%, 98%);
+
+    }
+    .cart2 {
+        background-image: url(../images/icon-team-builder.svg);
+        background-repeat: no-repeat;
+        background-position: 210px 135px;
+        background-size: 50px;
+        width: 280px;
+        height: 200px;
+        border-top: 3px solid;
+        border-color:  hsl(0, 78%, 62%);
+        margin: 10px;
+        background-color: hsl(0, 0%, 98%);
+
+    }
+    .cart3 {
+        background-image: url(../images/icon-karma.svg);
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position: 210px 135px;
+        width: 280px;
+        height: 200px;
+        border-top: 3px solid;
+        border-color: hsl(34, 97%, 64%);
+        margin: 10px;
+        background-color: hsl(0, 0%, 98%);
+
+    }
+    .cart4 {
+        background-image: url(../images/icon-calculator.svg);
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position: 210px 135px;
+        width: 280px;
+        height: 200px;
+        border-top: 3px solid;
+        border-color: hsl(212, 86%, 64%);
+        margin: 10px;
+        background-color: hsl(0, 0%, 98%);
+    }
+    .grid-container {
+        width: 95%;
+        height: 1200px;
+        background-color: hsl(0, 0%, 98%);
+        margin-left: 2.5%;
+        position: relative;
+        top: 50px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .pargraph-intro {
+        padding-left: -10px;
+        padding-right: -10px;
+    }
+     
+
+}
